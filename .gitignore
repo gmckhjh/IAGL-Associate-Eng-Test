@@ -1,0 +1,43 @@
+# Node modules
+node_modules/
+**/node_modules/
+
+# Build outputs
+/build/
+/dist/
+/public/build/
+/frontend/build/
+/backend/build/
+
+# Cache and logs
+.cache/
+.nyc_output/
+coverage/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# dotenv environment files
+.env
+.env.local
+.env.*.local
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Editor/IDE
+.vscode/
+.idea/
+
+# Jest test cache
+jest-test-results.json
+coverage/
+
+# Local server runtime
+*.pid
+
+# React specific
+*.env
+build/
